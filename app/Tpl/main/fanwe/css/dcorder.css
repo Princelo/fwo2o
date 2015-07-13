@@ -1,0 +1,222 @@
+
+.dc_order_info{
+   background: none repeat scroll 0 0 white;
+    border: 1px solid #ddd;
+    padding: 20px 10px 30px;
+	width: 300px;
+}
+.dc_order_info #dc_cart_info{
+	width:100%;
+}
+.order_page table{
+width:100%;
+}
+.order_page tr{
+	border-bottom: 1px dashed @border_color;
+    display: block;
+    padding: 7px 10px;
+
+}
+.order_page td {
+    display: inline-block;
+}
+#dc_cart_info .dc_left{
+ width: 45%;
+
+}
+#dc_cart_info .dc_m{
+ width: 10%;
+ text-align: center;
+}
+#dc_cart_info .unit_price{
+ width: 20%;
+ text-align: center;
+}
+#dc_cart_info .dc_right{
+ width: 21%;
+ text-align: right;
+ float:right;
+
+}
+.dc_order_pay{
+	border:solid 1px @border_color; 
+    background: none repeat scroll 0 0 white;
+    padding: 20px 10px 30px;
+    width: 636px;
+}
+
+.header_title{
+    border-bottom: 1px solid @border_color;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 9px;
+	margin-bottom:10px;
+
+}
+
+.p_total{
+	color:@main_color;
+    float: right;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.consignee_info .name{
+	padding: 2px 20px 0 0;
+    width: 12%;
+
+}
+.consignee_info .dc_m{
+  width: 57%;
+
+}
+
+.consignee_info .dc_m input[type="text"]{
+  width: 98.9%;
+
+}
+
+.consignee_info .require{
+	color: @main_color;
+	text-align: right;
+    width: 4%;
+}
+.consignee_info tr{
+border:none;
+}
+
+#go_other , #pay_confirm{
+    background: @main_color;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+
+.pay_method {
+	 position: relative;
+    border-top: 1px dashed @border_color;
+    clear: both;
+	margin-top:10px;
+	 background:white;
+}
+
+
+.info_tip{
+padding-left:11px;
+}
+
+/*ÏÂÀ­¿ò*/
+dl.filter_select{margin-right:10px; height:auto; display:inline-block; float:left; }
+dl.filter_select dt{width: 56px;background: #fff;cursor: pointer;height: 20px;line-height: 20px;text-align: left;letter-spacing: 1px;font-size: 12px;border:1px solid @border_color;padding: 1px 17px 1px 10px;*padding: 2px 17px 0px 10px;position:relative;overflow:hidden;}
+dl.filter_select dt i{height: 0;width: 0;position:absolute;right:8px;top:9px;overflow:hidden;
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+border-top: 5px solid transparent;
+border-top-color: #666;
+_border-left-color: tomato;
+_border-right-color: tomato;
+_filter: chroma(color=tomato);	
+}
+dl.filter_select.dropdown dt i{height:0;width:0;position:absolute;right:8px;top:9px;overflow:hidden;border-left: 4px solid transparent;border-right: 4px solid transparent;border-bottom: 5px solid transparent;border-bottom-color: #666;border-top:none;}
+dl.filter_select dd {width:83px;background:#fff;border:1px solid @border_color;border-top:none;line-height:24px;letter-spacing:1px; font-size:12px;overflow-x:hidden;overflow-y:auto;max-height:200px;}
+dl.filter_select dd a{ height:24px; cursor:pointer;text-align: left;padding-left: 10px;overflow:hidden;float:none;line-height:24px; margin-right:0px;}
+dl.filter_select dd a.current{ color:@main_color;}
+dl.filter_select dd a:hover{ background:#fbfbfb; color:@font_hover;}
+
+dl.filter_select.big dt{width:150px;}
+dl.filter_select.medium dt{width:120px;}
+dl.filter_select.small dt{width:56px}
+
+dl.filter_select.big dd{width:177px;}
+dl.filter_select.medium dd{width:147px;}
+dl.filter_select.small dd{width:83px}
+
+.dc_order_info input ,  .dc_order_pay input{
+height:25px;
+padding-left:12px;
+}
+
+.go_other a{color:white;}
+
+#dc_cart_info .box_title , #dc_total_table .box_title {
+    background: @main_color;
+    color: white;
+}
+.comment_tip{
+	display:none;
+    border: 1px solid @border_color;
+    padding: 7px 10px;
+    width: 97%;
+	position: absolute;
+	 z-index: 100;
+	 background:white;
+}
+
+.comment_tip .comment_tip_item {
+    cursor: pointer;
+    font-size: 10px;
+    padding: 2px 4px;
+	display: inline-block;
+}
+.comment_tip .comment_tip_item:hover{
+background:@main_color;
+color:white;
+border-radius:3px;
+}
+.dc_comment{
+position:relative;
+}
+
+input[name='dc_comment']{
+font-size:10px;
+}
+.pay_method label[name='payment_id']{
+margin-right:10px;
+
+}
+
+#online_pay #cart_payment{
+	display:none;
+}
+
+#online_pay {
+    background: white;
+}
+#cart_payment .cart_row .content > label {
+	border: 2px solid @border_color;
+    height: 40px;
+    margin: 1px;
+    width: 146px;
+}
+#cart_payment .cart_row .content > label:hover , .pay_active{
+border-color:@main_color !important;
+}
+#cart_payment .cart_row.layout_box{
+border:none;
+}
+
+#cart_payment .payment_rdo , #cart_payment .payment_rdo_checked {
+    float: left;
+    line-height: 40px;
+    margin: 0 7px 5px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.table_delete{
+
+cursor:pointer;
+float: right;
+
+}
+.table_delete:hover{
+	color:@main_color;
+}

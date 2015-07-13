@@ -1,0 +1,105 @@
+/*头部下拉菜单样式*/
+.biz_pull_down{display:none;}
+.biz_pull_down{
+	position:absolute;
+	width:138px;
+	background:#fff;
+	right:3px;
+	top:53px;
+	border:1px solid @border_style;
+	border-bottom:none;
+}
+.biz_pull_down ul li{
+	padding-left:0px;
+}
+
+.biz_pull_down .biz_menu{
+	width:138px;
+	height:30px;
+	border-bottom:1px solid @border_style;
+	line-height:30px;
+	color:@font_style;
+	text-align:left;
+}
+
+.biz_pull_down .biz_menu span{
+	padding:0 5px;
+	font-size:14px;
+}
+
+
+.biz_pull_down .biz_menu i{
+	padding:0 5px;
+	font-size:18px;
+}
+
+
+.f_menu{
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	line-height: 22px;
+	background: white;
+	width: 100%;
+	border-top: 3px solid #DADADA;
+}
+.f_menu .menu_box{
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+.f_menu .menu_box .menu_item{
+	display: table-cell;
+	padding: 10px 0 5px 0;
+}
+.f_menu .menu_box .menu_item.cur{color:@main_color;}
+.f_menu .menu_box .menu_item .iconfont{
+	font-size: 22px;
+}
+.f_menu .menu_box .menu_item .menu_txt{font-weight: bold;}
+
+
+/*输入框和下拉框样式*/
+.f_title{ line-height:22px; padding:10px 5px; color:#666; border-bottom:solid 1px @border_main;}
+.f_submit_panel{padding:10px;}
+.f_submit_panel dl{padding-bottom: 10px;}
+.f_submit_panel dl dt{font-size:14px;}
+.f_submit_panel dl dt {
+line-height: 38px;
+clear: both;
+text-align: left;
+}
+.f_submit_panel dl dd {
+overflow: hidden;
+line-height: 38px;
+margin-bottom: 8px;
+}
+.sb_input {
+width: 90%;
+padding: 0 10px;
+height: 44px;
+font-size: 16px;
+border-radius: 5px;
+border: 1px #ccc solid;
+background: #fff;
+	letter-spacing: 2px;
+font-weight:bold;
+}
+.sb_select {
+width: 90%;
+padding: 0 10px;
+height: 40px;
+font-size: 12px;
+border-radius: 5px;
+border: 1px #ccc solid;
+background: #fff;
+}
+
+/*错误提示框样式*/
+.common_tip {
+	margin-top: 2px;
+	padding: 10px;
+	border: 1px solid #fbf0d5;
+	background-color: #fffbf2;
+	font-size: 14px;
+}

@@ -1,0 +1,135 @@
+
+#cart-section {
+	background: none repeat scroll 0 0 white;
+    border: 1px solid @border_color;
+    bottom: 0;
+    position: fixed;
+    width: 228px;
+}
+
+#cart-section  #cart-title{
+background:@main_color;
+   color: white;
+    height: 30px;
+	border:solid 1px @main_color;;
+}
+
+#cart-section  #cart-content{
+background:#FAFAFA;
+font-size:10px;
+
+}
+#cart-section  #cart-content #cart-content-title{
+
+}
+
+#cart-section   > div{
+line-height:30px;
+
+}
+#dc_cart_info {
+    width: 100%;
+	background:white;
+	clear:both;
+}
+
+#dc_cart_info .dc_left{
+ width: 50%;
+
+}
+#dc_cart_info .dc_m{
+ width: 20%;
+ text-align: right;
+}
+#dc_cart_info .dc_right{
+ width: 25%;
+ text-align: right;
+ float:right;
+ padding-right: 2px;
+}
+
+.cart_head  .f_l{
+text-align:left;width:45%;padding-left:3px;
+}
+.cart_head  .f_r{
+text-align:right;width:50%;
+}
+
+.cart_head , #cart-title {
+
+padding:0 0 0 5px;
+}
+ #dc_cart_info tr{
+ display: block;
+ border-bottom:solid 1px @border_color;
+ padding:0 8px;
+ background:white;
+ }
+ #dc_cart_info td {
+    display: inline-block;
+}
+
+#dc_cart_info .dc_m .iconfont{
+    cursor: pointer;
+    font-size: 8px;
+
+}
+
+#dc_cart_info .dc_m #dc_num{
+	display: inline-block;
+    padding: 0 5px;
+    width: 12px;
+	text-align:center;
+
+}
+
+#cart-title .f_l .iconfont{
+cursor: pointer;
+
+}
+
+#cart-title .f_l .iconfont:hover{
+font-size:19px;
+font-weight:bold;
+}
+
+#num_show{
+position:absolute;
+width:30px;
+display:block;
+
+}
+
+#dc_clear {
+    height: 25px;
+    line-height: 26px;
+}
+
+.dc_clear_icon{
+display: inline-block;
+    float: right;
+}
+#dc_clear > p {
+    display: inline-block;
+}
+#dc_clear {
+ float: right;
+    height: 30px;
+    line-height: 28px;
+    width: 40%;
+	cursor:pointer;
+	padding-right: 5px;
+}
+
+
+#order_done{
+	cursor:pointer;
+	padding: 0 20px;
+}
+
+#order_done:hover{
+background:white;
+color:@font_color;
+}
+
+
